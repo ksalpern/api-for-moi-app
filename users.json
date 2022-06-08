@@ -1,47 +1,487 @@
 [
-    { id: 1, followed: false, fullName: "Sasha", status: "I'm a boss", location:{city:'Kharkiv', country: 'Ukraine'}, urlPhoto:'https://play-lh.googleusercontent.com/CWzqShf8hi-AhV9dUjzsqk2URzdIv8Vk2LmxBzf-Hc8T-oGkLVXe6pMpcXv36ofpvtc' },
-    { id: 2, followed: true, fullName: "Masha", status: "Do one thing every day that scares you.", location:{city:'Sumy', country: 'Ukraine'}, urlPhoto:'https://images.squarespace-cdn.com/content/v1/5b6a682125bf02f85e285689/1546478840771-HG0TE1RQUIZGUHHY2TKW/edited.jpg?format=1000w' },
-    { id: 3, followed: false, fullName: "Pasha", status: "I'm a boss either", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/9366083/pexels-photo-9366083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 4, followed: false, fullName: "Dasha", status: "Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate; only love can do that.", location:{city:'Chernivtsi', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/9412357/pexels-photo-9412357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 5, followed: true, fullName: "Vasya", status: "Our lives begin to end the day we become silent about things that matter.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/9443286/pexels-photo-9443286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 6, followed: false, fullName: "Anya", status: "In the end, we will remember not the words of our enemies, but the silence of our friends.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/9320599/pexels-photo-9320599.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 7, followed: false, fullName: "Bogdan", status: "Injustice anywhere is a threat to justice everywhere.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/627901/pexels-photo-627901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 8, followed: false, fullName: "Ksenia", status: "The time is always right to do what is right.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/3679453/pexels-photo-3679453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 9, followed: true, fullName: "Yulia", status: "Life's most persistent and urgent question is, 'What are you doing for others?", location:{city:'Chernihiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/12277704/pexels-photo-12277704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 10, followed: false, fullName: "Karla", status: "Weak people revenge. Strong people forgive. Intelligent People Ignore.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/4611959/pexels-photo-4611959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 11, followed: false, fullName: "Stas", status: "I have not failed. I've just found 10,000 ways that won't work.", location:{city:'', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/8342600/pexels-photo-8342600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 12, followed: false, fullName: "Evgeniya", status: "Genius is one percent inspiration and ninety-nine percent perspiration.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/8340460/pexels-photo-8340460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 13, followed: false, fullName: "Vova", status: "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/1306204/pexels-photo-1306204.jpeg?auto=compress&cs=tinysrgb&w=1600' },
-    { id: 14, followed: false, fullName: "Tanya", status: "If we did all the things we are capable of, we would literally astound ourselves.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2526417/pexels-photo-2526417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 15, followed: false, fullName: "Dima", status: "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.", location:{city:'Sumy', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2577895/pexels-photo-2577895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 16, followed: false, fullName: "Alina", status: "Life isn't about finding yourself. Life is about creating yourself.", location:{city:'Chernihiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2306841/pexels-photo-2306841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 17, followed: false, fullName: "Anita", status: "Success is not final, failure is not fatal: it is the courage to continue that counts.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/4918536/pexels-photo-4918536.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 18, followed: true, fullName: "Angelina", status: "If you're going through hell, keep going.", location:{city:'Sumy', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/10503621/pexels-photo-10503621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 19, followed: false, fullName: "Yana", status: "We make a living by what we get, but we make a life by what we give.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2306819/pexels-photo-2306819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 20, followed: false, fullName: "Karina", status: "Peace begins with a smile.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2577906/pexels-photo-2577906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 21, followed: false, fullName: "Elizabeth", status: "Spread love everywhere you go. Let no one ever come to you without leaving happier.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/4672591/pexels-photo-4672591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 22, followed: false, fullName: "Vlad", status: "If you can't feed a hundred people, then feed just one.", location:{city:'Sumy', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2577924/pexels-photo-2577924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 23, followed: true, fullName: "Misha", status: "Kind words can be short and easy to speak, but their echoes are truly endless.", location:{city:'Chernihiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2306802/pexels-photo-2306802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 24, followed: false, fullName: "Artem", status: "We don't stop playing because we grow old; we grow old because we stop playing.", location:{city:'Chernihiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2306809/pexels-photo-2306809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 25, followed: false, fullName: "Marina", status: "You see things; you say, 'Why?' But I dream things that never were; and I say 'Why not?", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2526416/pexels-photo-2526416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 26, followed: false, fullName: "Max", status: "You never fail until you stop trying.", location:{city:'Sumy', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2306806/pexels-photo-2306806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 27, followed: true, fullName: "Masha", status: "A single sunbeam is enough to drive away many shadows.", location:{city:'Chernihiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2566444/pexels-photo-2566444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 28, followed: false, fullName: "Olesia", status: "Preach the Gospel at all times and when necessary use words.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/1191668/pexels-photo-1191668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 29, followed: false, fullName: "Kolya", status: "Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/1756632/pexels-photo-1756632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 30, followed: false, fullName: "Dmitry", status: "All the darkness in the world cannot extinguish the light of a single candle.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2577923/pexels-photo-2577923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 31, followed: false, fullName: "Yaroslav", status: "I'm a boss ", location:{city:'Chernihiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2577897/pexels-photo-2577897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 32, followed: false, fullName: "Rostislava", status: "It's so easy to be wicked without knowing it, isn't it?", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2577848/pexels-photo-2577848.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 33, followed: true, fullName: "Kseniia", status: "We should regret our mistakes and learn from them, but never carry them forward into the future with us.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/11541166/pexels-photo-11541166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 34, followed: false, fullName: "Mariia", status: "Tomorrow is always fresh, with no mistakes in it.", location:{city:'Sumy', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2577950/pexels-photo-2577950.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 35, followed: false, fullName: "Nick", status: "Isn't it nice to think that tomorrow is a new day with no mistakes in it yet?", location:{city:'Chernihiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2577889/pexels-photo-2577889.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 36, followed: false, fullName: "Sam", status: "Do what you feel in your heart to be right - for you'll be criticized anyway.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2577946/pexels-photo-2577946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 37, followed: false, fullName: "Melanie", status: "Women are made to be Loved, not understood.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2577911/pexels-photo-2577911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 38, followed: false, fullName: "Lana", status: "Be the change that you wish to see in the world.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2577901/pexels-photo-2577901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 39, followed: false, fullName: "Ivy", status: "Live as if you were to die tomorrow. Learn as if you were to live forever.", location:{city:'Kyiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2577894/pexels-photo-2577894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 40, followed: false, fullName: "Tom", status: "No one can make you feel inferior without your consent.", location:{city:'Sumy', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/1149361/pexels-photo-1149361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 41, followed: false, fullName: "Jill", status: "Great minds discuss ideas; average minds discuss events; small minds discuss people.", location:{city:'Chernihiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/4557764/pexels-photo-4557764.jpeg?auto=compress&cs=tinysrgb&w=1600' },
-    { id: 42, followed: true, fullName: "Mabel", status: "True friends stab you in the front.", location:{city:'Sumy', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2557735/pexels-photo-2557735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 43, followed: false, fullName: "Vicky", status: "To live is the rarest thing in the world. Most people exist, that is all.", location:{city:'Chernihiv', country: 'Ukraine'}, urlPhoto:'https://images.pexels.com/photos/2526419/pexels-photo-2526419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' },
-    { id: 44, followed: true, fullName: "Tina", status: "Be yourself; everyone else is already taken.", location:{city:'Sumy', country: 'Ukraine'}, urlPhoto:'https://image.shutterstock.com/image-photo/vertical-portrait-adult-short-haired-260nw-1740788414.jpg' }
-    
-    ]
+    {
+        id: 1,
+        followed: false,
+        fullName: "Sasha",
+        status: "I'm a boss",
+        location: {
+            city: 'Kharkiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://play-lh.googleusercontent.com/CWzqShf8hi-AhV9dUjzsqk2URzdIv8Vk2LmxBzf-Hc8T-oGkLVXe6pMpcXv36ofpvtc'
+    },
+    {
+        id: 2,
+        followed: true,
+        fullName: "Masha",
+        status: "Do one thing every day that scares you.",
+        location: {
+            city: 'Sumy',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.squarespace-cdn.com/content/v1/5b6a682125bf02f85e285689/1546478840771-HG0TE1RQUIZGUHHY2TKW/edited.jpg?format=1000w'
+    },
+    {
+        id: 3,
+        followed: false,
+        fullName: "Pasha",
+        status: "I'm a boss either",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/9366083/pexels-photo-9366083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 4,
+        followed: false,
+        fullName: "Dasha",
+        status: "Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate; only love can do that.",
+        location: {
+            city: 'Chernivtsi',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/9412357/pexels-photo-9412357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 5,
+        followed: true,
+        fullName: "Vasya",
+        status: "Our lives begin to end the day we become silent about things that matter.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/9443286/pexels-photo-9443286.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 6,
+        followed: false,
+        fullName: "Anya",
+        status: "In the end, we will remember not the words of our enemies, but the silence of our friends.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/9320599/pexels-photo-9320599.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 7,
+        followed: false,
+        fullName: "Bogdan",
+        status: "Injustice anywhere is a threat to justice everywhere.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/627901/pexels-photo-627901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 8,
+        followed: false,
+        fullName: "Ksenia",
+        status: "The time is always right to do what is right.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/3679453/pexels-photo-3679453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 9,
+        followed: true,
+        fullName: "Yulia",
+        status: "Life's most persistent and urgent question is, 'What are you doing for others?",
+        location: {
+            city: 'Chernihiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/12277704/pexels-photo-12277704.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 10,
+        followed: false,
+        fullName: "Karla",
+        status: "Weak people revenge. Strong people forgive. Intelligent People Ignore.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/4611959/pexels-photo-4611959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 11,
+        followed: false,
+        fullName: "Stas",
+        status: "I have not failed. I've just found 10,000 ways that won't work.",
+        location: {
+            city: '',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/8342600/pexels-photo-8342600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 12,
+        followed: false,
+        fullName: "Evgeniya",
+        status: "Genius is one percent inspiration and ninety-nine percent perspiration.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/8340460/pexels-photo-8340460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 13,
+        followed: false,
+        fullName: "Vova",
+        status: "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/1306204/pexels-photo-1306204.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    },
+    {
+        id: 14,
+        followed: false,
+        fullName: "Tanya",
+        status: "If we did all the things we are capable of, we would literally astound ourselves.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2526417/pexels-photo-2526417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 15,
+        followed: false,
+        fullName: "Dima",
+        status: "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
+        location: {
+            city: 'Sumy',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2577895/pexels-photo-2577895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 16,
+        followed: false,
+        fullName: "Alina",
+        status: "Life isn't about finding yourself. Life is about creating yourself.",
+        location: {
+            city: 'Chernihiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2306841/pexels-photo-2306841.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 17,
+        followed: false,
+        fullName: "Anita",
+        status: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/4918536/pexels-photo-4918536.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 18,
+        followed: true,
+        fullName: "Angelina",
+        status: "If you're going through hell, keep going.",
+        location: {
+            city: 'Sumy',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/10503621/pexels-photo-10503621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 19,
+        followed: false,
+        fullName: "Yana",
+        status: "We make a living by what we get, but we make a life by what we give.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2306819/pexels-photo-2306819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 20,
+        followed: false,
+        fullName: "Karina",
+        status: "Peace begins with a smile.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2577906/pexels-photo-2577906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 21,
+        followed: false,
+        fullName: "Elizabeth",
+        status: "Spread love everywhere you go. Let no one ever come to you without leaving happier.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/4672591/pexels-photo-4672591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 22,
+        followed: false,
+        fullName: "Vlad",
+        status: "If you can't feed a hundred people, then feed just one.",
+        location: {
+            city: 'Sumy',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2577924/pexels-photo-2577924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 23,
+        followed: true,
+        fullName: "Misha",
+        status: "Kind words can be short and easy to speak, but their echoes are truly endless.",
+        location: {
+            city: 'Chernihiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2306802/pexels-photo-2306802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 24,
+        followed: false,
+        fullName: "Artem",
+        status: "We don't stop playing because we grow old; we grow old because we stop playing.",
+        location: {
+            city: 'Chernihiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2306809/pexels-photo-2306809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 25,
+        followed: false,
+        fullName: "Marina",
+        status: "You see things; you say, 'Why?' But I dream things that never were; and I say 'Why not?",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2526416/pexels-photo-2526416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 26,
+        followed: false,
+        fullName: "Max",
+        status: "You never fail until you stop trying.",
+        location: {
+            city: 'Sumy',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2306806/pexels-photo-2306806.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 27,
+        followed: true,
+        fullName: "Masha",
+        status: "A single sunbeam is enough to drive away many shadows.",
+        location: {
+            city: 'Chernihiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2566444/pexels-photo-2566444.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 28,
+        followed: false,
+        fullName: "Olesia",
+        status: "Preach the Gospel at all times and when necessary use words.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/1191668/pexels-photo-1191668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 29,
+        followed: false,
+        fullName: "Kolya",
+        status: "Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/1756632/pexels-photo-1756632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 30,
+        followed: false,
+        fullName: "Dmitry",
+        status: "All the darkness in the world cannot extinguish the light of a single candle.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2577923/pexels-photo-2577923.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 31,
+        followed: false,
+        fullName: "Yaroslav",
+        status: "I'm a boss ",
+        location: {
+            city: 'Chernihiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2577897/pexels-photo-2577897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 32,
+        followed: false,
+        fullName: "Rostislava",
+        status: "It's so easy to be wicked without knowing it, isn't it?",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2577848/pexels-photo-2577848.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 33,
+        followed: true,
+        fullName: "Kseniia",
+        status: "We should regret our mistakes and learn from them, but never carry them forward into the future with us.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/11541166/pexels-photo-11541166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 34,
+        followed: false,
+        fullName: "Mariia",
+        status: "Tomorrow is always fresh, with no mistakes in it.",
+        location: {
+            city: 'Sumy',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2577950/pexels-photo-2577950.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 35,
+        followed: false,
+        fullName: "Nick",
+        status: "Isn't it nice to think that tomorrow is a new day with no mistakes in it yet?",
+        location: {
+            city: 'Chernihiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2577889/pexels-photo-2577889.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 36,
+        followed: false,
+        fullName: "Sam",
+        status: "Do what you feel in your heart to be right - for you'll be criticized anyway.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2577946/pexels-photo-2577946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 37,
+        followed: false,
+        fullName: "Melanie",
+        status: "Women are made to be Loved, not understood.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2577911/pexels-photo-2577911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 38,
+        followed: false,
+        fullName: "Lana",
+        status: "Be the change that you wish to see in the world.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2577901/pexels-photo-2577901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 39,
+        followed: false,
+        fullName: "Ivy",
+        status: "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+        location: {
+            city: 'Kyiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2577894/pexels-photo-2577894.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 40,
+        followed: false,
+        fullName: "Tom",
+        status: "No one can make you feel inferior without your consent.",
+        location: {
+            city: 'Sumy',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/1149361/pexels-photo-1149361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 41,
+        followed: false,
+        fullName: "Jill",
+        status: "Great minds discuss ideas; average minds discuss events; small minds discuss people.",
+        location: {
+            city: 'Chernihiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/4557764/pexels-photo-4557764.jpeg?auto=compress&cs=tinysrgb&w=1600'
+    },
+    {
+        id: 42,
+        followed: true,
+        fullName: "Mabel",
+        status: "True friends stab you in the front.",
+        location: {
+            city: 'Sumy',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2557735/pexels-photo-2557735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 43,
+        followed: false,
+        fullName: "Vicky",
+        status: "To live is the rarest thing in the world. Most people exist, that is all.",
+        location: {
+            city: 'Chernihiv',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://images.pexels.com/photos/2526419/pexels-photo-2526419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    },
+    {
+        id: 44,
+        followed: true,
+        fullName: "Tina",
+        status: "Be yourself; everyone else is already taken.",
+        location: {
+            city: 'Sumy',
+            country: 'Ukraine'
+        },
+        urlPhoto: 'https://image.shutterstock.com/image-photo/vertical-portrait-adult-short-haired-260nw-1740788414.jpg'
+    }
+
+]
